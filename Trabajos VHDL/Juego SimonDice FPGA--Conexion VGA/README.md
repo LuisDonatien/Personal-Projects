@@ -1,6 +1,6 @@
 # Trabajo-FPGA
 # Objetivo del proyecto
-**El siguiente trabajo se realizó en el contexto de la asignatura de Sistemas Electrónicos Digitales de la universidad.**
+**El siguiente trabajo se realizó en el contexto de la asignatura de Sistemas Electrónicos Digitales de la universidad (Enero 2021).** 
 
 La implementación del juego popular SimonDice mediante la repetición de las secuencias mostradas por pantalla.
 El entorno de desarrollo es la Placa de desarrollo FPGA Nexys 4 DDR Artix-7 de Digilent

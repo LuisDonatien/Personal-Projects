@@ -21,4 +21,5 @@ En este proyecto me encargué personalmente del desarrollo de los siguientes mó
 
 # --------Aportación del Resto del equipo---------------
 Los demás integrantes del grupo realizaron el siguiente módulo:
-- Deteccion de la secuencia introducida en función del nivel actual.
+- Detección de la secuencia introducida en función del nivel actual.
+- Testbenches : Respectivo al módulo mencionado.

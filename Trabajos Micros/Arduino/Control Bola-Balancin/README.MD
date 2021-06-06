@@ -13,7 +13,7 @@ En este proyecto se distiguen los siguientes elementos:
 - Servomotor : El encargado de variar la inclinación del balancín
 - Sensor óptico laser : Este sensor mide por tiempo de vuelo la distancia a la que se encuentra la bola de este mismo.
 - Arduino : Para este proyecto se utilizó como micro un arduino UNO el cual suple perfectamente las necesidades del proyecto.
--
+
 Detalles en programación:
 - Servomotor: Se declara de forma bastante sencilla usando la libreria Servo.h
 - Sensor óptico de distancia se le realiza un filtrado debido a la oscilación de los valores entrantes. Realizando una media de cada X medidas configurable a gusto del programador.

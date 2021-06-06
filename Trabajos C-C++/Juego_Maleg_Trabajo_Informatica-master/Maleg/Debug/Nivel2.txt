@@ -1,0 +1,72 @@
+X1_Y1_X2_Y2_GROSOR_ROJO_VERDE_AZUL
+Plataforma
+-3.0 0.0 17.0 0.0 2.1 155.0 155.0 155.0		//Plataforma_base_inicial
+ 17.0 2.5 20.0 2.5 3.0 155.0 155.0 155.0       	//Primer_bloque_en_la_primera_pared_vertical
+ 17.0 12.5 20.0 12.5 3.0 155.0 155.0 155.0     	//Segundo_bloque_pared_vertical
+ 10.0 7.5 14.0 7.5 0.5 155.0 155.0 155.0	//Primera_plataforma_flotante 
+ 20.0 20.0 21.0 20.0 20.5 155.0 155.0 155.0    	//Primer_pared_vertical
+ 20.0 20.0 30.0 20.0 0.6 155.0 155.0 155.0     	//Continuacion_despues_de_los_saltos
+ 27.5 23.0 32.5 23.0 0.5 155.0 155.0 155.0     	//Plataforma_flotante
+ 35.0 27.0 38.0 27.0 0.5 155.0 155.0 155.0     	//Bloque_flotante_1
+ 41.0 31.0 44.0 31.0 0.5 155.0 155.0 155.0     	//Bloque_flotante_2
+ 46.0 27.0 49.0 27.0 0.5 155.0 155.0 155.0     	//Bloque_flotante_3
+ 52.0 29.0 57.0 29.0 0.5 155.0 155.0 155.0     	//Zona_de_descanso_despues_de_los_saltos
+ 65.0 27.0 67.0 27.0 3.0 155.0 155.0 155.0     	//Peldano_1_escalera
+ 67.0 29.5 69.0 29.5 3.0 155.0 155.0 155.0     	//Peldano_2_escalera
+ 69.0 32.0 71.0 32.0 3.0 155.0 155.0 155.0     	//Peldano_3_escalera
+ 71.0 34.5 73.0 34.5 3.0 155.0 155.0 155.0     	//Peldano_4_escalera
+ 73.0 37.0 75.0 37.0 3.0 155.0 155.0 155.0     	//Peldano_5_escalera
+ 75.0 39.5 77.0 39.5 3.0 155.0 155.0 155.0     	//Peldano_6_escalera
+ 81.0 37.0 86.0 37.0 0.5 155.0 155.0 155.0     	//Plataforma_despues_escaleras
+ 86.0 24.0 93.0 24.0 2.0 155.0 155.0 155.0     	//Plataforma_horizontal
+ 95.0 28.0 100.0 28.0 0.5 155.0 155.0 155.0    	//Plataforma_flotante_araña
+ 102.0 22.0 111.0 22.0 2.0 155.0 155.0 155.0   	//Plataforma_flotante_baja
+ 102.0 31.0 106.0 31.0 0.5 155.0 155.0 155.0   	//Plataforma_flotante_alta
+ 108.0 29.0 110.0 29.0 3.0 155.0 155.0 155.0   	//Bloque_plataforma_enemigo
+ 110.0 27.5 123.0 27.5 0.6 155.0 155.0 155.0 	//plataforma_enemigo
+ 123.0 29.0 125.0 29.0 3.0 155.0 155.0 155.0 	//bloque2_plataforma_enemigo
+ 139.0 31.5 141.0 31.5 3.0 155.0 155.0 155.0	//bloque_entre_plataforma_movil
+ 157.0 32.0 159.0 32.0 3.0 155.0 155.0 155.0   	//Bloque_plataforma_enemigo
+ 159.0 30.5 169.0 30.5 0.6 155.0 155.0 155.0 	//plataforma_enemigo
+ 169.0 32.0 171.5 32.0 3.0 155.0 155.0 155.0 	//bloque2_plataforma_enemigo
+ 174.0 30.0 175.0 30.0 0.5 155.0 155.0 155.0 	//miniplataforma
+ 189.0 27.5 192.0 27.5 3.0 155.0 155.0 155.0	//miniescalon1_final
+ 192.0 29.0 195.0 29.0 3.0 155.0 155.0 155.0	//miniescalon2_final
+ 195.0 29.0 208.0 29.0 0.6 155.0 155.0 155.0	//plataforma_final
+Plataforma_movil
+ 8.0 17.0 11.0 17.0 0.5 70 3.5 0.0 155.0 155.0 155.0          //Segunda_plataforma_flotante
+ 53.0 24.5 56.0 24.5 0.5 100 3.5 0.0 155.0 155.0 155.0       //Hoyo_debajo_de_la_plataforma
+ 127.0 26.0 131.0 26.0 0.5 70 3.5 0.0 155.0 155.0 155.0 	//plataforma_movil_despues_enemigo
+ 143.0 26.0 147.0 26.0 0.5 90 3.5 2.0 155.0 155.0 155.0		//plataforma_movil_diagonal
+ 177.0 30.0 180.0 30.0 0.5 90 3.5 -2.0 155.0 155.0 155.0 	//p_diagonal_final 
+ 75.0 25.0 78.0 25.0 0.5 100 3.5 2.0 155.0 155.0 155.0           //vida1
+Monedas
+ 12.0 20.0 0.5 255.0 255.0 0.0		//Moneda1
+ 39.0 30.0 0.5 255.0 255.0 0.0		//Moneda2
+ 87.0 35.5 0.5 255.0 255.0 0.0		//Moneda3
+ 104.0 27.0 0.5 255.0 255.0 0.0		//moneda4
+ 19.0 4.5 0.5 255.0 255.0 0.0		//Moneda5
+Enemigos
+Arana
+ 30.0 22.8				//Arana1
+ 54.5 28.8				//Arana2
+ 97.5 27.8				//Arana3
+Murcielago
+ 16.0 25.0				//Murcielago1
+ 40.0 35.0				//Murcielago2
+ 82.0 47.0				//Murcielago3
+ 110.0 40.0				//Murcielago4
+ 165.0 41.5				//Murcielago5
+Guerrero
+ 116.5 29.0 5.5 1.5			//Guerrero1
+ 164.0 32.0 4.0 -2.0			//Guerrero2
+Heroe
+PuntosReaparicion
+ 0.0 0.0 				//Reaparicion
+ 20.0 25.0				//Punto2
+ 81.0 40.0 				//punto3
+ 140.0 32.5				//punto4
+ 999.0 999.0				//PuntoInfinito
+VidasExtra
+ 76.5 -40.0 26.0 0.5 3.0                 //Vida1
+

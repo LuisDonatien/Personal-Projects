@@ -1,0 +1,119 @@
+X1_Y1_X2_Y2_GROSOR_ROJO_VERDE_AZUL
+Plataforma
+-5.0 0.0 5.0 0.0 0.6 155.0 155.0 155.0          //Plataforma_base_inicial
+ 9.0 2.0 13.0 2.0 0.5 155.0 155.0 155.0         //inicio1
+ 14.0 -5.0 16.0 -5.0 0.5 155.0 155.0 155.0      //inicio2
+ 19.0 -2.0 21.0 -2.0 0.5 155.0 155.0 155.0      //inicio3
+ 45.0 3.0 50.0 3.0 0.5 155.0 155.0 155.0   	//Plataforma_despues_primera:plataforma_movil
+ 53.0 4.5 55.0 4.5 0.5 155.0 155.0 155.0	//Saltitos1
+ 58.0 7.5 60.0 7.5 0.5 155.0 155.0 155.0	//Saltitos2
+ 68.0 10.5 69.0 10.5 0.5 155.0 155.0 155.0	//Saltitos3
+ 58.0 -1.0 70.0 -1.0 0.6 155.0 155.0 155.0      //Plataforma_debajo_de_saltitos
+ 89.0 20.0 91.0 20.0 0.5 155.0 155.0 155.0	//Llegada_despues_plataformas_moviles1
+ 95.0 21.0 97.0 21.0 0.5 155.0 155.0 155.0	//Llegada_despues_plataformas_moviles2
+ 100.0 20.0 102.0 20.0 0.5 155.0 155.0 155.0	//Llegada_despues_plataformas_moviles3
+ 87.0 30.0 91.0 30.0 0.5 155.0 155.0 155.0	//Llegada_despues_plataformas_moviles4
+ 98.0 29.0 99.0 29.0 0.5 155.0 155.0 155.0	//Llegada_despues_plataformas_moviles5
+ 95.0 32.0 97.0 32.0 0.5 155.0 155.0 155.0	//Llegada_despues_plataformas_moviles6
+ 103.0 25.0 105.0 25.0 0.5 155.0 155.0 155.0	//Llegada_despues_plataformas_moviles7
+ 102.0 35.0 105.0 35.0 0.5 155.0 155.0 155.0    //Llegada_despues_plataformas_moviles8 
+ 110.0 32.0 116.0 32.0 0.5 155.0 155.0 155.0    //Plataforma_aranas_1
+ 118.0 25.0 123.0 25.0 0.5 155.0 155.0 155.0    //Plataforma_aranas_2
+ 127.0 26.0 135.0 26.0 0.6 155.0 155.0 155.0    //Plataforma_aranas_3
+ 120.0 15.0 145.0 15.0 0.6 155.0 155.0 155.0	//Plataforma_guerrero1
+ 120.0 17.5 122.0 17.5 3.0 155.0 155.0 155.0    //Borde1_plataforma1_guerrero
+ 143.0 17.5 145.0 17.5 3.0 155.0 155.0 155.0    //Borde1_plataforma1_guerrero
+ 148.0 16.0 150.0 16.0 0.5 155.0 155.0 155.0    //Salto_entre_plataformas
+ 155.0 7.0 157.0 7.0 0.5 155.0 155.0 155.0      //Salto_entre_plataformas
+ 150.0 7.5 151.0 7.5 0.5 155.0 155.0 155.0      //Salto_entre_plataformas
+ 120.0 7.5 146.0 7.5 0.6 155.0 155.0 155.0	//Llegada_despues_plataformas1_guerreros
+ 120.0 10.0 122.0 10.0 3.0 155.0 155.0 155.0    //Borde1_plataforma2_guerrero
+ 144.0 10.0 146.0 10.0 3.0 155.0 155.0 155.0    //Borde1_plataforma2_guerrero
+ 160.0 9.0 180.0 9.0 0.6 155.0 155.0 155.0	//Plataforma_Guerreros3
+ 160.0 11.5 162.0 11.5 3.0 155.0 155.0 155.0    //Borde1_plataforma3_guerrero
+ 178.0 11.5 180.0 11.5 3.0 155.0 155.0 155.0    //Borde1_plataforma3_guerrero
+ 185.0 13.0 190.0 13.0 0.5 155.0 155.0 155.0	//Ultima_plataforma_antes_de_Jefe_final
+ 195.0 15.0 200.0 15.0 0.5 155.0 155.0 155.0	//Plataforma_Boss_final_1
+ 210.0 -5.0 225.0 -5.0 2.1 155.0 155.0 155.0	//Plataforma_Boss_final_2
+ 60.0 90.0 75.0 90.0 2.1 155.0 155.0 155.0    	//Plataforma_puerta_inferior01
+ 75.0 90.0 90.0 90.0 2.1 155.0 155.0 155.0    	//Plataforma_puerta_inferior02
+ 90.0 90.0 105.0 90.0 2.1 155.0 155.0 155.0     //Plataforma_puerta_inferior03
+ 105.0 100.0 106.0 100.0 20.0 155.0 155.0 155.0 //PAREDVERTICAL_ANTISALTO_dchaABAJO
+ 112.0 180.0 113.0 180.0 80.0 155.0 155.0 155.0 //PAREDVERTICAL_ANTISALTO_dchaARRIBA
+ 59.0 180.0 60.0 180.0 90.0 155.0 155.0 155.0   //PAREDVERTICAL_ANTISALTO_izqda
+ 103.0 100.0 112.0 100.0 0.6 155.0 155.0 155.0  //Plataforma_especial_puerta_superior
+ 93.5 100.0 97.5 100.0 0.5 155.0 155.0 155.0    //Plataforma_especial_izq_primera_puerta
+ 89.0 103.0 91.0 103.0 1.9 155.0 155.0 155.0    //Bloque1_puerta_especial
+ 87.5 121.0 89.5 121.0 1.9 155.0 155.0 155.0    //Borde1_plataforma_espe2
+ 96 113.0 98 113.0 1.9 155.0 155.0 155.0    	//Borde1_plataforma_espe4
+ 83 118.0 85 118.0 1.9 155.0 155.0 155.0    	//Borde1_plataforma_espe6
+ 86.5 113.5 88.5 113.5 1.9 155.0 155.0 155.0 	//Bloque_centro_con_moneda
+ 74.0 115.0 76.0 115.0 1.9 155.0 155.0 155.0 	//Bloque_izq_plataforma_movil_vertical_izq
+ 81.0 130.0 83.0 130.0 1.9 155.0 155.0 155.0 	//Bloque1_mas_alto
+ 85.0 131.5 87.0 131.5 1.9 155.0 155.0 155.0 	//Bloque2_a_la_dcha_anterior
+ 89.0 133.0 91.0 133.0 1.9 155.0 155.0 155.0 	//Bloque3_altos
+ 93.0 134.5 94.0 134.5 0.5 155.0 155.0 155.0 	//miniplataforma_altos 
+ 92.0 127.0 94.0 127.0 1.9 155.0 155.0 155.0 	//bloque_debajo_miniplataforma 
+ 96.0 128.0 97.0 128.0 0.5 155.0 155.0 155.0 	//miniplataforma_dcha_bloque_anterior
+ 68.0 127.0 70.0 127.0 1.9 155.0 155.0 155.0	//Bloque_superior_izq_del_todo
+ 68.0 103.0 70.0 103.0 1.9 155.0 155.0 155.0 	//Bloque_inferior_izq_del_todo
+Plataforma_movil
+ 40.0 3.0 43.0 3.0 0.5 200 -4.0 0.0 155.0 155.0 155.0 	//Plataforma_movilInicio
+ 85.0 20.0 87.0 20.0 0.5 200 -3.5 -3.5 155.0 155.0 155.0   //Cruce_con_plataforma_Movil
+ 85.0 103.5 87.0 104.0 0.5 55 -3.5 3.5 155.0 155.0 155.0   //plataforma_extra1
+ 78.0 109.0 80.0 109.0 0.5 70 0.0 3.5 155.0 155.0 155.0   //plataforma_extra2
+ 91.0 120.0 93.0 120.0 0.5 60 0.0 -3.5 155.0 155.0 155.0   //plataforma_extra3
+ 76.5 117.0 78.5 117.0 0.5 60 1.0 5.5 155.0 155.0 155.0   //Plataforma_extra4
+ 71.5 115.5 73.5 115.5 0.5 60 -1.0 5.5 155.0 155.0 155.0 	//Plataforma_extra5_izq_subir
+ 71.5 113.0 73.5 113.0 0.5 60 -1.0 -5.5 155.0 155.0 155.0 	//Plataforma_extra6_izq_bajar
+Monedas 
+ 90.0 32.0 0.5 255.0 255.0 0.0          //Moneda1
+ 150.5 8.5 0.5 255.0 255.0 0.0		//Moneda2
+ 120.0 18.5 0.5 255.0 255.0 0.0 	//Moneda3
+ 134.0 27.5 0.5 255.0 255.0 0.0 	//Moneda4
+ 59.5 8.5 0.5 255.0 255.0 0.0		//Moneda5
+ 97 115 0.5 255.0 255.0 0.0		//Moneda_extra_1
+ 87.5 114.5 0.5 255.0 255.0 0.0		//Moneda_extra_2
+ 75.0 117.0 0.5 255.0 255.0 0.0 	//Moneda_extra_3
+ 82.0 131.0 0.5 255.0 255.0 0.0		//Moneda_extra_4
+ 86.0 132.5 0.5 255.0 255.0 0.0 	//Moneda_extra_5
+ 88.5 122.0 0.5 255.0 255.0 0.0		//Mondeda_extra_6
+ 90.0 134.0 0.5 255.0 255.0 0.0		//Moneda_extra_7
+ 93.0 128.0 0.5 255.0 255.0 0.0 	//Moneda_extra_8
+ 95.5 101.0 0.5 255.0 255.0 0.0		//Moneda_extra_9
+ 90.0 104.0 0.5 255.0 255.0 0.0		//Moneda_extra_10
+ 69.0 128.0 0.5 255.0 255.0 0.0 	//Moneda_extra_11
+ 69.0 104.0 0.5 255.0 255.0 0.0 	//Moneda_extra_12
+Enemigos
+Arana
+ 113.0 31.75 3.5 0.75			//Arana1
+ 120.5 24.75 3.0 0.75			//Arana2
+ 131.0 25.75 4.4 0.75			//Arana3
+ 47.5 2.75 2.9 0.75			//Arana4
+ 64.0 -1.25 6.5 0.75			//Arana5
+Murcielago
+ 96.0 39.0				//Murcielago
+Guerrero
+ 132.0 16.0 9.5 3.0			//Guerrero1
+ 132.5 16.0 9.5 -2.0			//Guerrero2
+ 133.0 8.5 10.0 0.5			//Guerrero3
+ 133.0 8.5 10.0 2.5			//Guerrero4
+ 170.0 10.0 7.0 -1.5 			//Guerrero5
+ 170.0 10.0 7.0 1.5			//Guerrero6
+Heroe
+PuntosReaparicion
+ 0.0 0.0 				//Reaparicion
+ 98.0 30.0 				//Reaparicion
+ 120 18.5				//Reaparicion
+ 999.0 999.0 				//Referencia_a_infinito
+VidasExtra
+ 68.5 12.0  11.5 0.5 3.0		 //Vida1
+ 120.5 14.0 12.0 0.5 3.0                 //Vida2
+ 84 120.0 119.0 0.5 3.0                 //Vida_extra_1
+ 93.5 136.5 135.5 0.5 3.0		//Vida_extra_2
+ 96.5 130.0 129.0 0.5 3.0 		//Vida_extra_3
+ 
+ 
+ 
+ 
+

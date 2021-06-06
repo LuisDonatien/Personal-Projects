@@ -1,0 +1,27 @@
+Plataforma
+-10.0 10.0 6.0 10.0 2.1 128.0 64.0 0.0			//Suelo_Inicial
+ 6.0 9.0 6.0 9.0 9.0 128.0 64.0 0.0			//Pared_Invisible_abajo_izq
+ 60.0 12.0 61.0 12.0 9.0 128.0 64.0 0.0			//Pared_Invisible_abajo_dcha
+ 16.0 10.0 18.0 10.0 0.5 128.0 64.0 0.0			//Plataforma_Punto1
+ 17.0 20.0 25.0 20.0 0.6 128.0 64.0 0.0			//Plataforma_Punto2
+ 29.0 24.0 32.0 24.0 0.5 128.0 64.0 0.0			//Plataforma_Punto3
+ 28.0 18.0 31.0 18.0 0.5 128.0 64.0 0.0			//Plataforma_Punto4
+ 36.0 25.0 39.0 25.0 0.5 128.0 64.0 0.0			//Plataforma_Punto5
+ 6.0 3.0 60.0 3.0 2.2 128.0 64.0 0.0			//PlataformaFinal
+ 42.0 18.0 60.0 18.0 2.1 128.0 64.0 0.0			//Plataforma_Boss
+PuntosReaparicion
+ 0.0 10.0							//Inicio
+ 999.0 999.0							//Referencia_punto_lejano
+Enemigos
+Guerrero
+ 15.0 4.0 5.0 2.0					//Guerrero1
+ 20.0 4.0 6.5 -2.0					//Guerrero2
+ 17.0 4.0 4.0 3.0					//Guerrero3
+ 22.0 4.0 3.0 -3.0					//Guerrero4
+ 32.0 4.0 10.0 2.5					//Guerrero5
+ 40.0 4.0 12.0 -3.0					//Guerrero6
+ 48.0 4.0 7.0 2.5					//Guerrero7
+ 27.0 4.0 7.0 -2.0					//Guerrero8
+ 30.0 4.0 15.0 3.5					//Guerrero9
+ 33.0 4.0 8.0 -2.5					//Guerrero10
+

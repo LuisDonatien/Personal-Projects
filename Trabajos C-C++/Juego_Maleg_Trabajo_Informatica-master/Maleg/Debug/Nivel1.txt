@@ -1,0 +1,61 @@
+X1_Y1_X2_Y2_GROSOR_ROJO_VERDE_AZUL
+Plataforma
+-10.0 0.0 9.0 0.0 2.1 128.0 64.0 0.0			//Suelo_Inicial
+ 9.0 2.0 12.0 2.0 3.0 128.0 64.0 0.0			//Escalera1_Peldano1
+ 12.0 4.0 15.0 4.0 3.0 128.0 64.0 0.0			//Escalera1_Peldano2
+ 15.0 6.0 18.0 6.0 3.0 128.0 64.0 0.0			//Escalera1_Peldano3
+ 15.0 6.0 25.0 6.0 2.0 128.0 64.0 0.0			//Fin_de_la_escalera_comienzo_camino
+ 30.0 6.0 40.0 6.0 2.0 128.0 64.0 0.0			//Suelo_de_tierra_entre_las_sirenas
+ 35.0 11.0 45.0 11.0 0.6 128.0 64.0 0.0			//Suelo_elevada_encima_de_las_dos_sirenas
+ 45.0 6.0 55.0 6.0 2.0 128.0 64.0 0.0			//Suelo_despues_de_las_2_sirenas
+ 55.0 8.5 58.0 8.5 3.0 128.0 64.0 0.0			//SaltosCuadrados1_cuadrado1
+ 50.0 15.0 53.0 15.0 3.0 128.0 64.0 0.0			//SaltosCuadrados1_cuadrado2
+ 55.0 19.0 70.0 19.0 0.6 128.0 64.0 0.0			//Plataforma_despues_de_los_cuadrados_de_salto_con_pajaro_encima_y_agua_debajo
+ 73.0 15.0 76.0 15.0 0.5 128.0 64.0 0.0			//Salto1_encima_del_agua_despues_de_plataforma_pajaros
+ 77.0 11.0 80.0 11.0 0.5 128.0 64.0 0.0			//Salto2
+ 84.0 14.0 86.0 14.0 0.5 128.0 64.0 0.0			//Salto3
+ 87.0 18.0 93.0 18.0 0.5 128.0 64.0 0.0			//Plataforma1_despues_de_saltos
+ 96.0 14.0 99.0 14.0 0.5 128.0 64.0 0.0			//Plataforma2
+ 104.0 10.0 107.0 10.0 0.5 128.0 64.0 0.0		//Plataforma3
+ 112.0 13.0 120.0 13.0 2.0 128.0 64.0 0.0		//Plataforma_antes_de_dificil
+ 123.0 13.0 124.0 13.0 0.5 128.0 64.0 0.0		//Plataforma_dificil
+ 130.0 13.0 134.0 13.0 0.5 128.0 64.0 0.0		//Plataforma_despues_de_dificil
+ 124.0 6.0 134.0 6.0 2.0 128.0 64.0 0.0			//Plataforma_debajo_de_dificiles
+ 157.0 2.0 160.0 2.0 0.5 128.0 64.0 0.0			//Plataforma_InicioFinal1
+ 160.0 4.5 163.0 4.5 3.0 128.0 64.0 0.0			//Plataforma_InicioFinal2
+ 163.0 6.5 166.0 6.5 3.0 128.0 64.0 0.0 		//Plataforma_InicioFinal3
+ 166.0 7.5 185.0 7.5 2.1 128.0 64.0 0.0			//PLATAFORMA_FINALNIVEL
+Plataforma_movil
+ 137.0 2.0 142.0 2.0 0.5 300 2.0 0.0 128.0 64.0 0.0 		//Plataforma_movil
+ 169.0 11.2 172.0 11.2 0.5 300 0.0 2.0 128.0 64.0 0.0           //Plataforma_movil_vida2
+ 60.0 8.5 63.0 8.5 0.5 200 0.0 -2.0 128.0 64.0 0.0           //Plataforma_movil_vida1
+Monedas
+ 12.5 5.0 0.5 255.0 255.0 0.0				//Moneda1
+ 40.0 14.0 0.5 255.0 255.0 0.0				//Moneda2
+ 81.5 14.0 0.5 255.0 255.0 0.0				//Moneda3
+ 53.0 8.0 0.5 255.0 255.0 0.0				//Moneda4
+ 132.0 16.5 0.5 255.0 255.0 0.0				//Moneda5
+Enemigos
+Sirena
+ 27.5 10.0						//Sirena1					
+ 37.5 3.0						//Sirena2
+ 42.5 12.0						//Sirena3
+ 76.0 6.0						//Sirena4
+ 145.0 0.0						//Sirena5
+ 100.0 12.0						//Sirena6
+ Pajaro
+ 60.0 20.0    						//Pajaro1
+ 92.0 20.0    						//Pajaro2
+ 7.0  8.0    						//Pajaro3
+ 128.0 8.0    						//Pajaro4
+Heroe
+PuntosReaparicion
+ 0.0   0.0						//PuntoInicio
+ 23.5  7.0						//Punto1
+ 50.0  7.0						//Punto2
+ 105.5 11.0						//Punto3
+ 133.0 14.0						//Punto4
+ 190.0 20.0						//Punto5Referencianuncareaparecera_en_este
+VidasExtra
+ 170.6 70.0 26.8 0.5 -3.0                           //Vida2
+ 61.5 -30.0 0.0 0.5 3.0                             //Vida1

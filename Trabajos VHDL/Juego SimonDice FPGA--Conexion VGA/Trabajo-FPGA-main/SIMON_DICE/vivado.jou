@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Mon Feb  8 23:58:36 2021
+# Process ID: 21288
+# Current directory: C:/Users/thejo/Desktop/Trabajo-FPGA/SIMON_DICE
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19812 C:\Users\thejo\Desktop\Trabajo-FPGA\SIMON_DICE\SIMON_DICE.xpr
+# Log file: C:/Users/thejo/Desktop/Trabajo-FPGA/SIMON_DICE/vivado.log
+# Journal file: C:/Users/thejo/Desktop/Trabajo-FPGA/SIMON_DICE\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/thejo/Desktop/Trabajo-FPGA/SIMON_DICE/SIMON_DICE.xpr
+update_compile_order -fileset sources_1
+create_fileset -simset Sim_GestorSecuencia
+set_property SOURCE_SET sources_1 [get_filesets Sim_GestorSecuencia]
+import_files -fileset Sim_GestorSecuencia -norecurse C:/Users/thejo/Desktop/top_tb.vhd
+update_compile_order -fileset Sim_GestorSecuencia
+create_fileset -simset Sim_Comparador
+set_property SOURCE_SET sources_1 [get_filesets Sim_Comparador]
+import_files -fileset Sim_Comparador -norecurse C:/Users/thejo/Desktop/BloqueComparadorTestbench.vhd
+update_compile_order -fileset Sim_Comparador

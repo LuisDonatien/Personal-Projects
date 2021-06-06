@@ -1,0 +1,374 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Jan 29 10:27:00 2021
+# Process ID: 18976
+# Current directory: D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.runs/synth_1
+# Command line: vivado.exe -log TOP_SIMON_DICE.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP_SIMON_DICE.tcl
+# Log file: D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.runs/synth_1/TOP_SIMON_DICE.vds
+# Journal file: D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TOP_SIMON_DICE.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1016.164 ; gain = 0.000
+Command: synth_design -top TOP_SIMON_DICE -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11692
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1016.164 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TOP_SIMON_DICE' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/new/TOP_SIMON_DICE.vhd:21]
+INFO: [Synth 8-3491] module 'VGA' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/VGA.vhd:9' bound to instance 'vgat' of component 'VGA' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/new/TOP_SIMON_DICE.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'VGA' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/VGA.vhd:29]
+INFO: [Synth 8-3491] module 'SINCRO_VGA' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/SINCRO_VGA.vhd:9' bound to instance 'SINCRO' of component 'SINCRO_VGA' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/VGA.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'SINCRO_VGA' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/SINCRO_VGA.vhd:21]
+INFO: [Synth 8-3491] module 'P_countclk' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/P_countclk.vhd:6' bound to instance 'ContadorCLK' of component 'P_countclk' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/SINCRO_VGA.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'P_countclk' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/P_countclk.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'P_countclk' (1#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/P_countclk.vhd:14]
+INFO: [Synth 8-3491] module 'P_cont_px' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/P_cont_px.vhd:10' bound to instance 'Contador_Pxl_Columnas' of component 'P_cont_px' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/SINCRO_VGA.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'P_cont_px' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/P_cont_px.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'P_cont_px' (2#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/P_cont_px.vhd:22]
+INFO: [Synth 8-3491] module 'P_count_line' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/P_count_line.vhd:9' bound to instance 'Contador_Pxl_Filas' of component 'P_count_line' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/SINCRO_VGA.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'P_count_line' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/P_count_line.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'P_count_line' (3#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/P_count_line.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'SINCRO_VGA' (4#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/SINCRO_VGA.vhd:21]
+INFO: [Synth 8-3491] module 'DIBUJASIMON_VGA' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/DIBUJASIMON_VGA.vhd:9' bound to instance 'DIBUJA' of component 'DIBUJASIMON_VGA' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/VGA.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'DIBUJASIMON_VGA' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/DIBUJASIMON_VGA.vhd:26]
+WARNING: [Synth 8-614] signal 'SQUARE' is read in the process but is not in the sensitivity list [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/DIBUJASIMON_VGA.vhd:31]
+WARNING: [Synth 8-614] signal 'regsq' is read in the process but is not in the sensitivity list [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/DIBUJASIMON_VGA.vhd:31]
+WARNING: [Synth 8-614] signal 'RED_IN' is read in the process but is not in the sensitivity list [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/DIBUJASIMON_VGA.vhd:31]
+WARNING: [Synth 8-614] signal 'GREEN_IN' is read in the process but is not in the sensitivity list [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/DIBUJASIMON_VGA.vhd:31]
+WARNING: [Synth 8-614] signal 'BLUE_IN' is read in the process but is not in the sensitivity list [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/DIBUJASIMON_VGA.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'DIBUJASIMON_VGA' (5#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/DIBUJASIMON_VGA.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'VGA' (6#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/VGA.vhd:29]
+INFO: [Synth 8-3491] module 'TOP_FSM_SINCRONA' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/new/TOP_FSM_SINCRONA.vhd:5' bound to instance 'fsm_t' of component 'TOP_FSM_SINCRONA' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/new/TOP_SIMON_DICE.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'TOP_FSM_SINCRONA' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/new/TOP_FSM_SINCRONA.vhd:21]
+INFO: [Synth 8-3491] module 'FSM' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/new/FSM_1.vhd:6' bound to instance 'FSM_t' of component 'FSM' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/new/TOP_FSM_SINCRONA.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'FSM' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/new/FSM_1.vhd:25]
+WARNING: [Synth 8-614] signal 'nxt_nivel' is read in the process but is not in the sensitivity list [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/new/FSM_1.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'FSM' (7#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/new/FSM_1.vhd:25]
+INFO: [Synth 8-3491] module 'TOP_DEBOUNCER' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/new/TOP_DEBOUNCER.vhd:25' bound to instance 'deb' of component 'TOP_DEBOUNCER' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/new/TOP_FSM_SINCRONA.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'TOP_DEBOUNCER' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/new/TOP_DEBOUNCER.vhd:33]
+INFO: [Synth 8-3491] module 'SYNCHRNZR' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/SYNCHRNZR.vhd:5' bound to instance 'synch_c' of component 'SYNCHRNZR' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/new/TOP_DEBOUNCER.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'SYNCHRNZR' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/SYNCHRNZR.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'SYNCHRNZR' (8#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/SYNCHRNZR.vhd:13]
+INFO: [Synth 8-3491] module 'Debouncer' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/new/Debouncer.vhd:6' bound to instance 'debouncer_c' of component 'Debouncer' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/new/TOP_DEBOUNCER.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'Debouncer' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/new/Debouncer.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Debouncer' (9#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/new/Debouncer.vhd:14]
+INFO: [Synth 8-3491] module 'EDGEDTCTR' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/EDGEDTCTR.vhd:4' bound to instance 'edge_c' of component 'EDGEDTCTR' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/new/TOP_DEBOUNCER.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'EDGEDTCTR' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/EDGEDTCTR.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'EDGEDTCTR' (10#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/EDGEDTCTR.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'TOP_DEBOUNCER' (11#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/new/TOP_DEBOUNCER.vhd:33]
+INFO: [Synth 8-3491] module 'FSM_CLK' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/new/FSM_CLK.vhd:5' bound to instance 'clk_fsmt' of component 'FSM_CLK' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/new/TOP_FSM_SINCRONA.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'FSM_CLK' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/new/FSM_CLK.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'FSM_CLK' (12#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/new/FSM_CLK.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'TOP_FSM_SINCRONA' (13#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/new/TOP_FSM_SINCRONA.vhd:21]
+INFO: [Synth 8-3491] module 'TOP_DISPLAY' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/DISPLAY.srcs/sim_1/new/TOP_DISPLAY.vhd:4' bound to instance 'display_t' of component 'TOP_DISPLAY' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/new/TOP_SIMON_DICE.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'TOP_DISPLAY' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/DISPLAY.srcs/sim_1/new/TOP_DISPLAY.vhd:15]
+INFO: [Synth 8-3491] module 'Display_CLK' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/DISPLAY.srcs/sources_1/new/Display_CLK.vhd:6' bound to instance 'Disp_clk' of component 'Display_CLK' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/DISPLAY.srcs/sim_1/new/TOP_DISPLAY.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'Display_CLK' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/DISPLAY.srcs/sources_1/new/Display_CLK.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Display_CLK' (14#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/DISPLAY.srcs/sources_1/new/Display_CLK.vhd:15]
+INFO: [Synth 8-3491] module 'Display_Mux_7x1' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/DISPLAY.srcs/sources_1/new/Display_Mux_7x1.vhd:3' bound to instance 'Disp_mux' of component 'Display_Mux_7x1' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/DISPLAY.srcs/sim_1/new/TOP_DISPLAY.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'Display_Mux_7x1' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/DISPLAY.srcs/sources_1/new/Display_Mux_7x1.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Display_Mux_7x1' (15#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/DISPLAY.srcs/sources_1/new/Display_Mux_7x1.vhd:18]
+INFO: [Synth 8-3491] module 'decoder' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/DISPLAY.srcs/sources_1/new/DECODER_DISP.vhd:5' bound to instance 'Disp_decod' of component 'decoder' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/DISPLAY.srcs/sim_1/new/TOP_DISPLAY.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'decoder' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/DISPLAY.srcs/sources_1/new/DECODER_DISP.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'decoder' (16#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/DISPLAY.srcs/sources_1/new/DECODER_DISP.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'TOP_DISPLAY' (17#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/DISPLAY.srcs/sim_1/new/TOP_DISPLAY.vhd:15]
+INFO: [Synth 8-3491] module 'top' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/toptop.vhd:4' bound to instance 'comp_t' of component 'TOP' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/new/TOP_SIMON_DICE.vhd:154]
+INFO: [Synth 8-638] synthesizing module 'top' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/toptop.vhd:22]
+INFO: [Synth 8-3491] module 'TOP_DEBOUNCER' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/new/TOP_DEBOUNCER.vhd:25' bound to instance 'deb1' of component 'TOP_DEBOUNCER' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/toptop.vhd:63]
+INFO: [Synth 8-3491] module 'TOP_DEBOUNCER' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/new/TOP_DEBOUNCER.vhd:25' bound to instance 'deb2' of component 'TOP_DEBOUNCER' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/toptop.vhd:69]
+INFO: [Synth 8-3491] module 'TOP_DEBOUNCER' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/new/TOP_DEBOUNCER.vhd:25' bound to instance 'deb3' of component 'TOP_DEBOUNCER' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/toptop.vhd:75]
+INFO: [Synth 8-3491] module 'TOP_DEBOUNCER' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/new/TOP_DEBOUNCER.vhd:25' bound to instance 'deb4' of component 'TOP_DEBOUNCER' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/toptop.vhd:81]
+INFO: [Synth 8-3491] module 'TOP_DEBOUNCER' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/new/TOP_DEBOUNCER.vhd:25' bound to instance 'deb5' of component 'TOP_DEBOUNCER' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/toptop.vhd:87]
+INFO: [Synth 8-3491] module 'gestor_secuencia' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/top.vhd:5' bound to instance 'Inst_gstr' of component 'gestor_secuencia' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/toptop.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'gestor_secuencia' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/top.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'gestor_secuencia' (18#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/top.vhd:22]
+INFO: [Synth 8-3491] module 'BLOQUE_COMPARADOR' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/Comparador.vhd:5' bound to instance 'Inst_comp' of component 'bloque_comparador' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/toptop.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'BLOQUE_COMPARADOR' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/Comparador.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'BLOQUE_COMPARADOR' (19#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/Comparador.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'top' (20#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/new/toptop.vhd:22]
+INFO: [Synth 8-3491] module 'TOP_DEBOUNCER' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/new/TOP_DEBOUNCER.vhd:25' bound to instance 'deb_t' of component 'TOP_DEBOUNCER' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/new/TOP_SIMON_DICE.vhd:166]
+INFO: [Synth 8-3491] module 'TOP_SYNCH' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/new/TOP_SYNCH.vhd:4' bound to instance 'synch5_t' of component 'TOP_SYNCH' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/new/TOP_SIMON_DICE.vhd:172]
+INFO: [Synth 8-638] synthesizing module 'TOP_SYNCH' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/new/TOP_SYNCH.vhd:12]
+INFO: [Synth 8-3491] module 'SYNCHRNZR' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/SYNCHRNZR.vhd:5' bound to instance 'sync_0' of component 'SYNCHRNZR' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/new/TOP_SYNCH.vhd:22]
+INFO: [Synth 8-3491] module 'SYNCHRNZR' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/SYNCHRNZR.vhd:5' bound to instance 'sync_1' of component 'SYNCHRNZR' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/new/TOP_SYNCH.vhd:28]
+INFO: [Synth 8-3491] module 'SYNCHRNZR' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/SYNCHRNZR.vhd:5' bound to instance 'sync_2' of component 'SYNCHRNZR' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/new/TOP_SYNCH.vhd:34]
+INFO: [Synth 8-3491] module 'SYNCHRNZR' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/SYNCHRNZR.vhd:5' bound to instance 'sync_3' of component 'SYNCHRNZR' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/new/TOP_SYNCH.vhd:40]
+INFO: [Synth 8-3491] module 'SYNCHRNZR' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/SYNCHRNZR.vhd:5' bound to instance 'sync_4' of component 'SYNCHRNZR' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/new/TOP_SYNCH.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'TOP_SYNCH' (21#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/new/TOP_SYNCH.vhd:12]
+INFO: [Synth 8-3491] module 'Mux_2x1' declared at 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/new/Mux_2x1.vhd:4' bound to instance 'mux_but_fsmt' of component 'Mux_2x1' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/new/TOP_SIMON_DICE.vhd:178]
+INFO: [Synth 8-638] synthesizing module 'Mux_2x1' [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/new/Mux_2x1.vhd:13]
+INFO: [Synth 8-226] default block is never used [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/new/Mux_2x1.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2x1' (22#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/new/Mux_2x1.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'TOP_SIMON_DICE' (23#1) [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/sources_1/imports/sources_1/new/TOP_SIMON_DICE.vhd:21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 1016.164 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:14 . Memory (MB): peak = 1016.164 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:14 . Memory (MB): peak = 1016.164 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1016.164 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/constrs_1/imports/digilent-xdc-master/Nexys-4-DDR-Master.xdc]
+Finished Parsing XDC File [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/constrs_1/imports/digilent-xdc-master/Nexys-4-DDR-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.srcs/constrs_1/imports/digilent-xdc-master/Nexys-4-DDR-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TOP_SIMON_DICE_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TOP_SIMON_DICE_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1108.656 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 1108.656 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1108.656 ; gain = 92.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1108.656 ; gain = 92.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1108.656 ; gain = 92.492
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'estate_reg' in module 'FSM'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               s0_inicio |                              000 |                              000
+                s1_nivel |                              001 |                              001
+               s2_dibuja |                              010 |                              010
+                s3_pulsa |                              011 |                              011
+                 s4_wait |                              100 |                              100
+                s5_final |                              101 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'estate_reg' using encoding 'sequential' in module 'FSM'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 1108.656 ; gain = 92.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 5     
+	   2 Input   10 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	               25 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 8     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 7     
+	                2 Bit    Registers := 14    
+	                1 Bit    Registers := 24    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 13    
+	   5 Input   25 Bit        Muxes := 8     
+	   6 Input   25 Bit        Muxes := 2     
+	   4 Input   25 Bit        Muxes := 2     
+	   3 Input   25 Bit        Muxes := 2     
+	   2 Input   25 Bit        Muxes := 3     
+	   2 Input   10 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 3     
+	   5 Input    7 Bit        Muxes := 4     
+	   7 Input    7 Bit        Muxes := 1     
+	   6 Input    7 Bit        Muxes := 4     
+	   4 Input    7 Bit        Muxes := 2     
+	   3 Input    7 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 5     
+	   4 Input    5 Bit        Muxes := 1     
+	   6 Input    5 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 72    
+	   6 Input    4 Bit        Muxes := 9     
+	   7 Input    4 Bit        Muxes := 1     
+	   3 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 8     
+	   4 Input    3 Bit        Muxes := 1     
+	   6 Input    3 Bit        Muxes := 2     
+	   5 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 31    
+	   6 Input    1 Bit        Muxes := 7     
+	   3 Input    1 Bit        Muxes := 1     
+	   7 Input    1 Bit        Muxes := 2     
+	  13 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:37 . Memory (MB): peak = 1108.656 ; gain = 92.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:45 . Memory (MB): peak = 1108.656 ; gain = 92.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:45 . Memory (MB): peak = 1108.656 ; gain = 92.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:45 . Memory (MB): peak = 1113.414 ; gain = 97.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1119.188 ; gain = 103.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1119.188 ; gain = 103.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1119.188 ; gain = 103.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1119.188 ; gain = 103.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1119.188 ; gain = 103.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1119.188 ; gain = 103.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++---------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name    | RTL Name                   | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++---------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|TOP_SIMON_DICE | deb_t/synch_c/SYNC_OUT_reg | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++---------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    90|
+|3     |LUT1   |    25|
+|4     |LUT2   |    80|
+|5     |LUT3   |    54|
+|6     |LUT4   |   164|
+|7     |LUT5   |   166|
+|8     |LUT6   |   220|
+|9     |MUXF7  |     6|
+|10    |SRL16E |     1|
+|11    |FDCE   |   370|
+|12    |FDRE   |    94|
+|13    |FDSE   |     2|
+|14    |IBUF   |     7|
+|15    |OBUF   |    29|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1119.188 ; gain = 103.023
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:45 . Memory (MB): peak = 1119.188 ; gain = 10.531
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:49 . Memory (MB): peak = 1119.188 ; gain = 103.023
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1131.242 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 96 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1131.242 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+97 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:01:08 . Memory (MB): peak = 1131.242 ; gain = 115.078
+INFO: [Common 17-1381] The checkpoint 'D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.runs/synth_1/TOP_SIMON_DICE.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TOP_SIMON_DICE_utilization_synth.rpt -pb TOP_SIMON_DICE_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 29 10:28:33 2021...

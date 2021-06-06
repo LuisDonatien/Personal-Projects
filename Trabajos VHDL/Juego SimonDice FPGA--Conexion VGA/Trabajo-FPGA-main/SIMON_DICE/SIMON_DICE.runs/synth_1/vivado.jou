@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Jan 29 10:27:00 2021
+# Process ID: 18976
+# Current directory: D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.runs/synth_1
+# Command line: vivado.exe -log TOP_SIMON_DICE.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP_SIMON_DICE.tcl
+# Log file: D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.runs/synth_1/TOP_SIMON_DICE.vds
+# Journal file: D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TOP_SIMON_DICE.tcl -notrace

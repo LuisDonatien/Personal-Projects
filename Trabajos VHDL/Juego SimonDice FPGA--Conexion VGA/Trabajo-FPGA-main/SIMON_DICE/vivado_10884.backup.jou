@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Jan 29 17:05:38 2021
+# Process ID: 10884
+# Current directory: D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18880 D:\DocumentosVivado\Trabajo VHDL\SIMON_DICE\SIMON_DICE\SIMON_DICE.xpr
+# Log file: D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/vivado.log
+# Journal file: D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/DocumentosVivado/Trabajo VHDL/SIMON_DICE/SIMON_DICE/SIMON_DICE.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+write_schematic -format pdf -orientation portrait D:/Documentos/PracticaSED/ESQUEMA_GENERAL_PROYECTO.pdf

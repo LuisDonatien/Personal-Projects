@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Feb  8 22:57:34 2021
+# Process ID: 1264
+# Current directory: D:/Proyectos GitHub/Trabajo FPGA SED/Trabajo-FPGA/SIMON_DICE
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17800 D:\Proyectos GitHub\Trabajo FPGA SED\Trabajo-FPGA\SIMON_DICE\SIMON_DICE.xpr
+# Log file: D:/Proyectos GitHub/Trabajo FPGA SED/Trabajo-FPGA/SIMON_DICE/vivado.log
+# Journal file: D:/Proyectos GitHub/Trabajo FPGA SED/Trabajo-FPGA/SIMON_DICE\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Proyectos GitHub/Trabajo FPGA SED/Trabajo-FPGA/SIMON_DICE/SIMON_DICE.xpr}
+update_compile_order -fileset sources_1
+create_fileset -simset Sim_Debouncer
+set_property SOURCE_SET sources_1 [get_filesets Sim_Debouncer]
+import_files -fileset Sim_Debouncer -norecurse {{D:/DocumentosVivado/Modulos VHDL/Debouncing_Button/Debouncing_Button.srcs/sim_2/new/TOP_DEBOUNCER_tb.vhd}}
+update_compile_order -fileset Sim_Debouncer
+create_fileset -simset Sim_FSM
+set_property SOURCE_SET sources_1 [get_filesets Sim_FSM]
+import_files -fileset Sim_FSM -norecurse {{D:/DocumentosVivado/Trabajo VHDL/FSM_SINCRONA_V1.4/FSM_SINCRONA_V1.4/FSM_SINCRONA_V1.4.srcs/sim_2/imports/new/fsm_tbtb.vhd}}
+update_compile_order -fileset Sim_FSM
+create_fileset -simset Sim_Display
+set_property SOURCE_SET sources_1 [get_filesets Sim_Display]
+import_files -fileset Sim_Display -norecurse {{D:/DocumentosVivado/Modulos VHDL/DISPLAY/DISPLAY/DISPLAY.srcs/sim_2/new/DisP_CLK_tb.vhd} {D:/DocumentosVivado/Modulos VHDL/DISPLAY/DISPLAY/DISPLAY.srcs/sim_1/new/TOP_DISPLAY_tb.vhd}}
+update_compile_order -fileset Sim_Display
+create_fileset -simset Sim_VGA
+set_property SOURCE_SET sources_1 [get_filesets Sim_VGA]
+import_files -fileset Sim_VGA -norecurse {{D:/DocumentosVivado/Trabajo VHDL/Controlador VGA/Proyecto VGA/Proyecto VGA.srcs/sim_4/new/SINCRO_VGA_tb.vhd} {D:/DocumentosVivado/Trabajo VHDL/Controlador VGA/Proyecto VGA/Proyecto VGA.srcs/sim_5/new/VGA_tb.vhd} {D:/DocumentosVivado/Trabajo VHDL/Controlador VGA/Proyecto VGA/Proyecto VGA.srcs/sim_3/new/P_countpxl_tb.vhd} {D:/DocumentosVivado/Trabajo VHDL/Controlador VGA/Proyecto VGA/Proyecto VGA.srcs/sim_2/new/P_counter_tb.vhd}}
+update_compile_order -fileset Sim_VGA

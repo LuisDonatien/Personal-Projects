@@ -1,0 +1,102 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri Jan 29 10:29:29 2021
+| Host         : LAPTOP-41UTCTCK running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file TOP_SIMON_DICE_control_sets_placed.rpt
+| Design       : TOP_SIMON_DICE
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    24 |
+|    Minimum number of control sets                        |    24 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   102 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    24 |
+| >= 0 to < 4        |     8 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    12 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              61 |           24 |
+| No           | No                    | Yes                    |             171 |           61 |
+| No           | Yes                   | No                     |               6 |            2 |
+| Yes          | No                    | No                     |              29 |           15 |
+| Yes          | No                    | Yes                    |             199 |           76 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+--------------------------------------+--------------------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |             Enable Signal            |              Set/Reset Signal              | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+--------------------------------------+--------------------------------------------+------------------+----------------+--------------+
+|  CLK_IBUF_BUFG |                                      | synch5_t/sync_1/SYNC_OUT_reg_0             |                1 |              1 |         1.00 |
+|  CLK_IBUF_BUFG |                                      | synch5_t/sync_0/SYNC_OUT_reg_0             |                1 |              1 |         1.00 |
+|  CLK_IBUF_BUFG |                                      | synch5_t/sync_3/SYNC_OUT_reg_0             |                1 |              1 |         1.00 |
+|  CLK_IBUF_BUFG |                                      | synch5_t/sync_2/SYNC_OUT_reg_0             |                1 |              1 |         1.00 |
+|  CLK_IBUF_BUFG |                                      | deb_t/debouncer_c/reg_i_2_n_0              |                1 |              1 |         1.00 |
+| ~CLK_IBUF_BUFG |                                      | fsm_t/FSM_t/FSM_sequential_estate_reg[0]_8 |                1 |              1 |         1.00 |
+|  CLK_IBUF_BUFG |                                      | synch5_t/sync_4/SYNC_OUT_reg_0             |                2 |              2 |         1.00 |
+|  CLK_IBUF_BUFG |                                      | comp_t/Inst_comp/Salida[1]_i_2_n_0         |                1 |              2 |         2.00 |
+|  CLK_IBUF_BUFG |                                      | fsm_t/FSM_t/FSM_sequential_estate_reg[2]_1 |                2 |              6 |         3.00 |
+|  CLK_IBUF_BUFG | fsm_t/FSM_t/nivel_reg[1]_3[0]        |                                            |                2 |              6 |         3.00 |
+| ~CLK_IBUF_BUFG | vgat/SINCRO/Contador_Pxl_Filas/nline | deb_t/edge_c/AR[0]                         |                6 |             10 |         1.67 |
+| ~CLK_IBUF_BUFG | deb_t/edge_c/E[0]                    | deb_t/edge_c/AR[0]                         |                5 |             10 |         2.00 |
+|  CLK_IBUF_BUFG | fsm_t/deb/debouncer_c/count          | synch5_t/sync_4/SYNC_OUT_reg_0             |                6 |             21 |         3.50 |
+|  CLK_IBUF_BUFG | comp_t/deb1/debouncer_c/count        | synch5_t/sync_4/SYNC_OUT_reg_0             |                6 |             21 |         3.50 |
+|  CLK_IBUF_BUFG | comp_t/deb2/debouncer_c/count        | synch5_t/sync_0/SYNC_OUT_reg_0             |                6 |             21 |         3.50 |
+|  CLK_IBUF_BUFG | comp_t/deb3/debouncer_c/count        | synch5_t/sync_3/SYNC_OUT_reg_0             |                6 |             21 |         3.50 |
+|  CLK_IBUF_BUFG | comp_t/deb4/debouncer_c/count        | synch5_t/sync_1/SYNC_OUT_reg_0             |                6 |             21 |         3.50 |
+|  CLK_IBUF_BUFG | comp_t/deb5/debouncer_c/count        | synch5_t/sync_2/SYNC_OUT_reg_0             |                6 |             21 |         3.50 |
+|  CLK_IBUF_BUFG | deb_t/debouncer_c/count              | deb_t/debouncer_c/reg_i_2_n_0              |                6 |             21 |         3.50 |
+| ~CLK_IBUF_BUFG | deb_t/edge_c/sreg_reg[1]_0[0]        |                                            |               13 |             23 |         1.77 |
+| ~CLK_IBUF_BUFG | fsm_t/FSM_t/E[0]                     | fsm_t/FSM_t/FSM_sequential_estate_reg[0]_8 |               23 |             32 |         1.39 |
+|  CLK_IBUF_BUFG |                                      | comp_t/FSM_sequential_estate_reg[2]        |               21 |             58 |         2.76 |
+|  CLK_IBUF_BUFG |                                      |                                            |               24 |             62 |         2.58 |
+| ~CLK_IBUF_BUFG |                                      | deb_t/edge_c/AR[0]                         |               31 |            103 |         3.32 |
++----------------+--------------------------------------+--------------------------------------------+------------------+----------------+--------------+
+
+

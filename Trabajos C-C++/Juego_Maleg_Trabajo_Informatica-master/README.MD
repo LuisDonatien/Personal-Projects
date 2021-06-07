@@ -11,3 +11,6 @@ En este trabajo se realizó la implementación de un juego de plataformas en C++
 - Lógica de control de físicas del personaje con plataformas , enemigos y premios.
 - Depuración y control del trabajo del resto de compañeros en cuanto a depuración de errores.
 - Link a repositorio del proyecto original en el cual se verán las estadisticas de trabajo aportado: https://github.com/TrabajoInformatica/Juego_Maleg_Trabajo_Informatica/graphs/contributors
+
+
+Trabajos C-C++/Juego_Maleg_Trabajo_Informatica-master/Juego_MALEG.mp4

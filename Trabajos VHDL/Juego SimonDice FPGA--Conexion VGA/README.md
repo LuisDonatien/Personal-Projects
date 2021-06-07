@@ -9,7 +9,7 @@ El entorno de desarrollo es la Placa de desarrollo FPGA Nexys 4 DDR Artix-7 de D
 
 En ella se procede a mostrar el nivel mediante los displays de 7 segmentos. 
 La secuencia a introducir se realiza mediante los pulsadores disponibles en la placa de desarrolllo.
-La secuencia a introducir es mostrada previamente en una pantalla por salida VGA con resolucion 640x480.
+La secuencia a introducir es mostrada previamente en una pantalla por salida VGA con resolución 640x480.
 
 # --------Aportación Personal al Proyecto--------------
 En este proyecto me encargué personalmente del desarrollo de los siguientes módulos:

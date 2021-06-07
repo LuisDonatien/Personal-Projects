@@ -14,8 +14,8 @@ La secuencia a introducir es mostrada previamente en una pantalla por salida VGA
 # --------Aportación Personal al Proyecto--------------
 En este proyecto me encargué personalmente del desarrollo de los siguientes módulos:
 - Debouncer (Módulo dedicado a la deteccion de rebotes durante la estabilización al pulsar un botón).
-- FMS (Maquina de Estados de Moore dedicada a la gestion de los estados, niveles , y secuencias a mostrar en función del nivel).
-- Protocolo Conexion VGA : La programacion de la conexion VGA para una resolucion 640x480 a 25 MHz.
+- FMS (Máquina de Estados de Moore dedicada a la gestión de los estados, niveles y secuencias a mostrar en función del nivel).
+- Protocolo Conexión VGA : La programación de la conexión VGA para una resolución 640x480 a 25 MHz.
 - Displays 7 segmentos : Para mostrar el estado y niveles del juegos.
 - Testbenches : Respectivos a los módulos mencionados anteriormente.
 

@@ -23,13 +23,13 @@
 # 2. The following source(s) files that were local or imported into the original project.
 #    (Please see the '$orig_proj_dir' and '$origin_dir' variable setting below at the start of the script)
 #
-#    "C:/Users/luisw/OneDrive/Escritorio/Curso_Udemy_Comunicaciones/CursoVHDLComunicaciones/I2C/ProyectoSensorI2C/Proyecto_MasterI2C/Proyecto_SlaveI2C/Proyecto_SlaveI2C.srcs/sources_1/new/I2CFsm_Slave.vhd"
-#    "C:/Users/luisw/OneDrive/Escritorio/Curso_Udemy_Comunicaciones/CursoVHDLComunicaciones/I2C/ProyectoSensorI2C/Proyecto_MasterI2C/Proyecto_SlaveI2C/Proyecto_SlaveI2C.srcs/sources_1/new/I2C_ReceiveSCL.vhd"
-#    "C:/Users/luisw/OneDrive/Escritorio/Curso_Udemy_Comunicaciones/CursoVHDLComunicaciones/I2C/ProyectoSensorI2C/Proyecto_MasterI2C/Proyecto_SlaveI2C/Proyecto_SlaveI2C.srcs/sources_1/new/SYNCHRNZR.vhd"
-#    "C:/Users/luisw/OneDrive/Escritorio/Curso_Udemy_Comunicaciones/CursoVHDLComunicaciones/I2C/ProyectoSensorI2C/Proyecto_MasterI2C/Proyecto_SlaveI2C/Proyecto_SlaveI2C.srcs/sources_1/new/TOP.vhd"
-#    "C:/Users/luisw/OneDrive/Escritorio/Curso_Udemy_Comunicaciones/CursoVHDLComunicaciones/I2C/ProyectoSensorI2C/Proyecto_MasterI2C/Proyecto_SlaveI2C/Proyecto_SlaveI2C.srcs/constrs_1/new/Constrains.xdc"
-#    "C:/Users/luisw/OneDrive/Escritorio/Curso_Udemy_Comunicaciones/CursoVHDLComunicaciones/I2C/ProyectoSensorI2C/Proyecto_MasterI2C/Proyecto_SlaveI2C/Proyecto_SlaveI2C.srcs/sim_1/new/I2C_ReceiveSCL_tb.vhd"
-#    "C:/Users/luisw/OneDrive/Escritorio/Curso_Udemy_Comunicaciones/CursoVHDLComunicaciones/I2C/ProyectoSensorI2C/Proyecto_MasterI2C/Proyecto_SlaveI2C/Proyecto_SlaveI2C.srcs/sim_2/new/I2CFsm_Slave_tb.vhd"
+#    
+#    
+#   
+#  
+#   
+#   
+# 
 #
 # 3. The following remote source files that were added to the original project:-
 #

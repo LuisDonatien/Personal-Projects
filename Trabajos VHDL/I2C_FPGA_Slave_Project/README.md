@@ -20,7 +20,7 @@ This personal project aims to increase my knowledge of interface protocols. In t
 + **MPU-9250**: The arduino UNO master reads from this device the register of temperature 0x41 and 0x42 (2 bytes).
 + **Level Shifter**: The FPGA only accepts a 3.3v logic input/output and the Arduino Uno outputs 5V on the I2C output. To solve this problem, a level shifter is used to convert the voltage.
 
-## Operating image.
+## Operating Image.
 The following image shows the Arduino UNO reading from the temperature sensor and sending a byte number to the FPGA. You can also see that the FPGA displays the number sent from the Master through the 8 LEDs.
 ![Imagen I2c](https://user-images.githubusercontent.com/62206349/149642828-08f16a13-a1dd-4b68-8109-58dff67b7b00.png)
 

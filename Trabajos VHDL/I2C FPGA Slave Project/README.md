@@ -1,4 +1,4 @@
-# I2C FPGA Slave Project
+# I2C Slave FPGA Project
 ![Imagen Inicial I2c](https://user-images.githubusercontent.com/62206349/149641326-9ff2163f-3b0c-4be1-9822-385a5bdee8fb.png)
 This personal project aims to increase my knowledge of interface protocols. In this case the chosen protocol is the I2C communication protocol. The objective is to emulate this protocol in vhdl and test its correct operation with an arduino master and other I2C devices connected in the same network.
 ## Components
